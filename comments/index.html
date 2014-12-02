@@ -1,105 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-	<head>
-		<title>Template</title>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
-		<link rel="stylesheet" type="text/css" href="basestyle.css"/>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('#menu > li').bind('mouseover', openDropDown);
-				$('#menu > li').bind('mouseout', closeDropDown);			
-				function openDropDown() {
-					$(this).find('ul').css('visibility', 'visible');	
-				};				
-				function closeDropDown() {
-					$(this).find('ul').css('visibility', 'hidden');	
-				};						   
-			});
-		</script>
-	</head>
-	
-	<body>
-		<div id="page">
-		
-			<div id="header">
-				<a href="/index.html"><img id="logo" alt="logo" src="Center-logo2010.png"/></a>
-				<ul id="menu">
-					<li><a href="/index.html">Home</a></li>
-					<li><a href="/about">About Us</a>
-						<ul>
-							<li><a href="/what-we-do">What We Do</a></li>
-							<li><a href="/contact">Contact & Directions</a></li>
-							<li><a href="/staff">Key Staff</a></li>
-							<li><a href="/board-of-trustees">Board of Trustees</a></li>
-						</ul>
-					</li>
-					<li><a href="/programs">Programs & Services</a>
-						<ul>
-							<li><a href="/groups">Groups</a></li>
-							<li><a href="/services">Services</a></li>
-							<li><a href="/camp-comfort">Camp Comfort</a></li>
-							<li><a href="/faq">FAQ</a></li>
-							<li><a href="/comments">Comments</a></li>
-						</ul>
-					</li>
-					<li><a href="/calendar">Calendar & Events</a>
-						<ul>
-							<li><a href="/fundraisers">Fundraisers</a></li>
-							<li><a href="/center-workshop">Center Workshop</a></li>
-						</ul>
-					</li>
-					<li><a href="/volunteer">Volunteer</a>
-						<ul>
-							<li><a href="/volunteer">Volunteer Opportunities</a></li>
-							<li><a href="/training-workshop">Training Workshop</a></li>
-						</ul>
-					</li>
-					<li><a href="/donations">Donations</a>
-						<ul>
-							<li><a href="/donations">Online</a></li>
-							<li><a href="/wishlist">Wishlist</a></li>
-						</ul>
-					</li>
-				</ul>
-				<div class="clearfloat"></div>
-			</div>
-			
-			
-			
-			<div id="content">
-				<h1>Comments Page</h1>
-
-				<p>We are interested in your opinions and experiences. We are compiling research in the following areas so that we may better help those who are going through the grieving process and those who are in the position to help them:</p>
-
-				<p>If you have had a loved one die, what are some things that "well meaning" people have said or done that were upsetting or just plain hurt?</p>
-
-				<p>What are some helpful or comforting things people have said or done?</p>
-
-				<p>What are some things you wish they had said or done?</p>
-
-				<p>***It is helpful to us, but not manditory, to register some information along with your comments and replies to our questions (i.e. -- What was your loss, how long ago did it occur and any other information that may be deemed pertinent).</p>
-
-				<p>We are also interested in finding out about experiences you may have had with support groups.</p>
-
-				<p>If you've attended a support group, was it a positive experience or a negative experience? What made it so?</p>
-
-				<p>If you've never attended a support group, what were the reasons or concerns you may have had for not attending?</p>
-
-				<p>If you have a personal experience, a piece of poetry, ways to cope or any other suggestions for our website that you would like to share, we would love to hear from you. Just click on the image below.</p>
-			</div>
-			
-			
-			
-			<hr />
-			<div id="footer">
-				<p>Filler footer text</p>
-			</div>
-			
-		</div>
-	</body>
+<head>
+<title>Template</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<link rel="stylesheet" type="text/css" href="../basestyle.css"/>
+<script type="text/javascript">
+$(document).ready(function() {
+$('#menu > li').bind('mouseover', openDropDown);
+$('#menu > li').bind('mouseout', closeDropDown);
+function openDropDown() {
+$(this).find('ul').css('visibility', 'visible');
+};
+function closeDropDown() {
+$(this).find('ul').css('visibility', 'hidden');
+};
+});
+</script>
+</head>
+<body>
+<div id="page">
+<div id="header">
+<a href="../index.html"><img id="logo" alt="logo" src="../images/Center-logo2010.png"/></a>
+<ul id="menu">
+<li><a href="../index.html">Home</a></li>
+<li><a href="/about">About Us</a>
+<ul>
+<li><a href="../what-we-do">What We Do</a></li>
+<li><a href="../contact">Contact & Directions</a></li>
+<li><a href="../staff">Key Staff</a></li>
+<li><a href="../board-of-trustees">Board of Trustees</a></li>
+</ul>
+</li>
+<li><a href="/programs">Programs & Services</a>
+<ul>
+<li><a href="../groups">Groups</a></li>
+<li><a href="../services">Services</a></li>
+<li><a href="../camp-comfort">Camp Comfort</a></li>
+<li><a href="../faq">FAQ</a></li>
+<li><a href="../comments">Comments</a></li>
+</ul>
+</li>
+<li><a href="/calendar">Calendar & Events</a>
+<ul>
+<li><a href="../fundraisers">Fundraisers</a></li>
+<li><a href="../center-workshop">Center Workshop</a></li>
+</ul>
+</li>
+<li><a href="/volunteer">Volunteer</a>
+<ul>
+<li><a href="../volunteer">Volunteer Opportunities</a></li>
+<li><a href="../training-workshop">Training Workshop</a></li>
+</ul>
+</li>
+<li><a href="../donations">Donations</a>
+<ul>
+<li><a href="../donations">Online</a></li>
+<li><a href="../wishlist">Wishlist</a></li>
+</ul>
+</li>
+</ul>
+<div class="clearfloat"></div>
+</div>
+<div id="content">
+<p>Filler content</p>
+</div>
+<hr />
+<div id="footer">
+<p>Filler footer text</p>
+</div>
+</div>
+</body>
 </html>
-
-
