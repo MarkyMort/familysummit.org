@@ -53,7 +53,7 @@ Drop Down Menu
 		display: block;
 		margin: 0 3px 0 0;
 		padding: 4px 10px;
-		width: 175px;
+		width: 142px;
 		background: #800000;
 		color: #FFF;
 		text-align: center;
@@ -66,7 +66,7 @@ Drop Down Menu
 		position: absolute;
 		visibility:hidden;
 		margin:0;
-		padding:1px 0 0 0;
+		padding: 0;
 	}
 	#menu li ul li {	
 		display:inline;
@@ -74,7 +74,7 @@ Drop Down Menu
 	}
 	#menu li ul li a {
 		background-color:#800000;
-		width:175px;
+		width:142px;
 	}
 	#menu li ul li a:hover {	
 		background-color:#9D2A44;
