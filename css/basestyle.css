@@ -1,0 +1,99 @@
+/*basestyle.css*/
+
+body {
+	margin:0;
+	padding: 0;
+	background-color:#800000;
+	background-image: url('backgroundgradient.png');
+	background-repeat: repeat-y;
+	background-position: center;
+}
+hr {
+	border-color:#9D2A44;
+	margin: 0 5px;
+}
+#page {
+	width: 1000px;
+	margin: 7px auto;
+	padding:5px;
+	border: 1px solid black;
+	background-color: #F2F2C4;
+	box-shadow: -5px 5px 5px black;
+}
+#header {
+	margin: 2px 5px 15px 5px;
+}
+
+#logo {
+	margin:15px;
+}
+
+#content {
+	margin: 2px 15px;
+}
+
+#footer {
+	margin: 2px 15px;
+}
+
+/*************
+Drop Down Menu
+**************/
+	#menu {	
+		width:990px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	#menu li {	
+		list-style: none;
+		float: left;
+		font: bold 12px arial;
+	}
+	#menu li a {	
+		display: block;
+		margin: 0 3px 0 0;
+		padding: 4px 10px;
+		width: 142px;
+		background: #800000;
+		color: #FFF;
+		text-align: center;
+		text-decoration: none;
+	}
+	#menu li a:hover {
+		background: #9D2A44;
+	}
+	#menu li ul {
+		position: absolute;
+		visibility:hidden;
+		margin:0;
+		padding: 0;
+	}
+	#menu li ul li {	
+		display:inline;
+		float:none;
+	}
+	#menu li ul li a {
+		background-color:#800000;
+		width:142px;
+	}
+	#menu li ul li a:hover {	
+		background-color:#9D2A44;
+	}
+	
+/***********
+Class Styles
+************/
+.clearfloat {
+	clear:both;
+}
+.cal {
+	text-align:center;
+	margin:auto;
+	padding:0;
+	width:950px;
+}
+.map {
+	text-align:center;
+	margin:20px auto;
+	width:600px;
+}
