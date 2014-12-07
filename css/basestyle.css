@@ -38,6 +38,10 @@ hr {
 	margin: 0px 15px;
 }
 
+#wishlist td{
+	width:220px;
+}
+
 /*************
 Drop Down Menu
 **************/
