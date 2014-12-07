@@ -86,6 +86,9 @@ Drop Down Menu
 /***********
 Class Styles
 ************/
+.indent {
+	margin-left:20px;	
+}
 .cal {
 	text-align:center;
 	margin:auto;
