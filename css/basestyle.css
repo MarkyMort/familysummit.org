@@ -1,6 +1,7 @@
 /*basestyle.css*/
 
 body {
+	width:1366px;
 	margin:0;
 	padding: 0;
 	background-color: #F2F2C4;
