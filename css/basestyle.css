@@ -1,7 +1,6 @@
 /*basestyle.css*/
 
 body {
-	width:1366px;
 	margin:0;
 	padding: 0;
 	background-color: #F2F2C4;
@@ -48,7 +47,7 @@ Drop Down Menu
 **************/
 	#menu {	
 		width:990px;
-		height: 22px;
+		height: 23px;
 		margin: 0px auto 15px auto;
 		padding: 0;
 	}
