@@ -38,6 +38,11 @@ hr {
 #boldname {
     font-size: 1.5em;
 }
+#twoGirls {
+    float: right;
+    margin-right: 15px;
+    padding-left: 10px;
+}
 /*************
 Drop Down Menu
 **************/
