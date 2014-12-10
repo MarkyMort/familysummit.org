@@ -25,12 +25,17 @@ hr {
 #content {
     margin: 0px 15px;
     font-family: Arial, sans-serif;
+    padding-top: 1px;
 }
 #footer {
     margin: 0px 15px;
 }
 #wishlist td {
     width: 220px;
+}
+#volunteerImg {
+    float: right;
+    margin-right: 10px
 }
 /*************
 Drop Down Menu
@@ -76,12 +81,6 @@ Drop Down Menu
 }
 #menu li ul li a:hover {
     background-color: #9D2A44;
-}
-#campPhotos {
-    margin: auto;
-}
-#campPhotos td {
-    padding: 7px;
 }
 /***********
 Class Styles
