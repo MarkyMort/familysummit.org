@@ -23,7 +23,6 @@ hr {
 }
 #logo {
     margin: 15px;
-    text-decoration: none;
 }
 #content {
     margin: 0px 15px;
@@ -88,6 +87,9 @@ Drop Down Menu
 }
 #menu li ul li a:hover {
     background-color: #9D2A44;
+}
+a, a:visited, a:link, a:active, a:hover {
+   text-decoration:none; 
 }
 /***********
 Class Styles
