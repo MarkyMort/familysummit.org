@@ -25,12 +25,23 @@ hr {
 #content {
     margin: 0px 15px;
     font-family: Arial, sans-serif;
+    padding-top: 1px;
 }
 #footer {
     margin: 0px 15px;
 }
 #wishlist td {
     width: 220px;
+}
+#candledrawings {
+    margin: auto;
+}
+#candledrawings td {
+    padding: 5px;
+}
+#activitiesImg {
+    display: block;
+    margin-bottom: 50px;
 }
 /*************
 Drop Down Menu
@@ -76,12 +87,6 @@ Drop Down Menu
 }
 #menu li ul li a:hover {
     background-color: #9D2A44;
-}
-#campImages {
-    margin: auto;
-}
-#campImages td {
-    padding: 7px;
 }
 /***********
 Class Styles
