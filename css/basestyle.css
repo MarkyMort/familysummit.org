@@ -23,6 +23,7 @@ hr {
 }
 #logo {
     margin: 15px;
+    border: none;
 }
 #content {
     margin: 0px 15px;
