@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2C4;
+}
+hr {
+    border-color: #9D2A44;
+    margin: 0 5px;
+}
+#menuspace {
+    background-color: #800000;
+}
+#page {
+    clear: both;
+    width: 1000px;
+    margin: 7px auto;
+}
+#header {
+    width: 1000px;
+    margin: 0 auto;
+}
+#logo {
+    margin: 15px;
+}
+#content {
+    margin: 0px 15px;
+}
+#footer {
+    margin: 0px 15px;
+}
+#wishlist td {
+    width: 220px;
+}
+#groupImg {
+    float: right;
+    margin-right: 40px
+}
+/*************
+Drop Down Menu
+**************/
+
+#menu {
+    width: 990px;
+    height: 23px;
+    margin: 0px auto 15px auto;
+    padding: 0;
+}
+#menu li {
+    list-style: none;
+    float: left;
+    font: bold 12px arial;
+}
+#menu li a {
+    display: block;
+    margin: 0 3px 0 0;
+    padding: 4px 10px;
+    width: 142px;
+    background: #800000;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+#menu li a:hover {
+    background: #9D2A44;
+}
+#menu li ul {
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+}
+#menu li ul li {
+    display: inline;
+    float: none;
+}
+#menu li ul li a {
+    background-color: #800000;
+    width: 142px;
+}
+#menu li ul li a:hover {
+    background-color: #9D2A44;
+}
+/***********
+Class Styles
+************/
+
+.indent {
+    margin-left: 20px;
+}
+.cal {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 950px;
+}
+.map {
+    text-align: center;
+    margin: 20px auto;
+    width: 600px;
+}
