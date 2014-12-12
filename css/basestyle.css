@@ -45,6 +45,7 @@ hr {
     padding-left: 10px;
 }
 #events {
+    clear: right;
     float: right;
     margin-right: 15px;
     padding-left: 10px;
