@@ -33,9 +33,6 @@ hr {
 #footer {
     margin: 0px 15px;
 }
-#wishlist td {
-    width: 220px;
-}
 #boldname {
     font-size: 1.5em;
 }
@@ -53,7 +50,9 @@ hr {
 }
 #wishlistleft {
     float:left;
+    margin-right:20px;
 }
+
 /*************
 Drop Down Menu
 **************/
