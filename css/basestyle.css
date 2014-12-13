@@ -41,13 +41,13 @@ hr {
 }
 #twoGirls {
     float: right;
-    margin-top:15px;
     margin-right: 15px;
     padding-left: 10px;
 }
 #events {
     clear: right;
     float: right;
+    margin-top:15px;
     margin-right: 15px;
     padding-left: 10px;
 }
