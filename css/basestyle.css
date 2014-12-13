@@ -6,6 +6,7 @@ body {
     background-color: #F2F2C4;
 }
 hr {
+    clear:both;
     border-color: #9D2A44;
     margin: 0 5px;
 }
