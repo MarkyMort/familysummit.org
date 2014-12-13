@@ -56,6 +56,7 @@ hr {
 }
 #wishlistleft ul {
     margin:0;
+    width:275px;
 }
 #wishlistright {
     padding-top:0px;
