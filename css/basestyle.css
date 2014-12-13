@@ -51,6 +51,9 @@ hr {
     margin-right: 15px;
     padding-left: 10px;
 }
+#wishlistleft {
+    float:left;
+}
 /*************
 Drop Down Menu
 **************/
