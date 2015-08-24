@@ -1,117 +1,138 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags must come first in the head -->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<title>The Family Summit Foundation - A Center for Grieving Children</title>
+	<base href="../">
+	<!-- Bootstrap and JQuery -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/base.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- Dropdown hover over for better desktop experience, while preserving mobile compatibility -->
+	<script src="js/bootstrap-hover-dropdown.min.js"></script>
 
-	<head>
-		<title>Comments</title>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
-		<link rel="stylesheet" type="text/css" href="../css/basestyle.css"/>
-		<script type="text/javascript">
-		  $(document).ready(function() {
-		  	$('#menu > li').bind('mouseover', openDropDown);
-				$('#menu > li').bind('mouseout', closeDropDown);			
-				function openDropDown() {
-					$(this).find('ul').css('visibility', 'visible');	
-				};				
-				function closeDropDown() {
-					$(this).find('ul').css('visibility', 'hidden');	
-				};						   
-			});
-		</script>
-		<link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
-	</head>
-	
-	<body>
-		<div id="header">
-		<a href="../"><img id="logo" alt="logo" src="../images/Center-logo2010.png"/></a>
-		</div>
-		<div id="menuspace">
-			<ul id="menu">
-				<li><a href="../">Home</a></li>
-				<li><a href="../about">About Us</a>
-					<ul>
-						<li><a href="../what-we-do">What We Do</a></li>
-						<li><a href="../contact">Contact & Directions</a></li>
-						<li><a href="../staff">Key Staff</a></li>
-						<li><a href="../board-of-trustees">Board of Trustees</a></li>
-					</ul>
-				</li>
-				<li><a href="../programs">Programs & Services</a>
-					<ul>
-						<li><a href="../groups">Groups</a></li>
-						<li><a href="../services">Services</a></li>
-						<li><a href="../camp-comfort">Camp Comfort</a></li>
-						<li><a href="../faq">FAQ</a></li>
-						<li><a href="../comments">Comments</a></li>
-					</ul>
-				</li>
-				<li><a href="../calendar">Calendar & Events</a>
-					<ul>
-						<li><a href="../fundraisers">Fundraisers</a></li>
-						<li><a href="../center-workshop">Center Workshop</a></li>
-					</ul>
-				</li>
-				<li><a href="../volunteer">Volunteer</a>
-					<ul>
-						<li><a href="../volunteer">Volunteer Opportunities</a></li>
-						<li><a href="../training-workshop">Training Workshop</a></li>
-					</ul>
-				</li>
-				<li><a href="../donations">Donations</a>
-					<ul>
-						<li><a href="../donations">Online</a></li>
-						<li><a href="../wishlist">Wishlist</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>	
-		<div id="page">
-			<div id="content">
-				<h1>Comments</h1>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
-				<p>We are interested in your opinions and experiences. We are compiling research in the following areas so that we may better help those who are going through the grieving process and those who are in the position to help them:</p>
-
-				<p>If you have had a loved one die, what are some things that "well meaning" people have said or done that were upsetting or just plain hurt?</p>
-
-				<p>What are some helpful or comforting things people have said or done?</p>
-
-				<p>What are some things you wish they had said or done?</p>
-
-				<p>***It is helpful to us, but not manditory, to register some information along with your comments and replies to our questions (i.e. -- What was your loss, how long ago did it occur and any other information that may be deemed pertinent).</p>
-
-				<p>We are also interested in finding out about experiences you may have had with support groups.</p>
-
-				<p>If you've attended a support group, was it a positive experience or a negative experience? What made it so?</p>
-
-				<p>If you've never attended a support group, what were the reasons or concerns you may have had for not attending?</p>
-
-				<p>If you have a personal experience, a piece of poetry, ways to cope or any other suggestions for our website that you would like to share, we would love to hear from you. Just click on the image below.</p>
-				
-				<a href="#"><img src="../images/email.png" alt="Email Image"/></a>
-				<br />
-				
-				<form action="https://docs.google.com/forms/d/1estuVo5XFTAzx6RxMKV6Zw4MqMURKSl3H9stpm1HVmQ/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
-					<div>Please enter your comment here.</div>
-					<textarea name="entry.981648872" rows="8" cols="75" class="ss-q-long" id="entry_981648872" dir="auto" aria-label="Please enter your comment here.  " aria-required="true" required=""></textarea>
-					
-					<input type="hidden" name="draftResponse" value="[,,&quot;2014024071254412989&quot;]">
-					<input type="hidden" name="pageHistory" value="0">
-					<input type="hidden" name="fbzx" value="2014024071254412989">
-	
-					<div><table id="navigation-table"><tbody><tr><td>
-					<input type="submit" name="submit" value="Submit" id="ss-submit"></td>
-					</tr></tbody></table></div></ol>
-				</form>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header class="container picture-header">
+		<a href="./">
+        <img id="logo" alt="logo" src="images/Center-logo2010.png" />
+    	</a>
+	</header>
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 			</div>
-			
-			
-			
-			<hr />
-			<div id="footer">
-				<p>Filler footer text</p>
-			</div>
-			
+
+			<!-- Collect nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+		    	<ul class="nav navbar-nav">
+			      	<li><a href="./">Home</a></li>
+			        <li class="dropdown">
+			        	<a href="#" class="dropdown-toggle" data-hover="dropdown" data-delay="200" data-close-others="true" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+			        	<ul class="dropdown-menu">
+				            <li><a href="about">Principles &amp; Mission</a></li>
+				            <li><a href="what-we-do">What We Do</a></li>
+				            <li><a href="contact">Contact &amp; Directions</a></li>
+				            <li><a href="staff">Key Staff</a></li>
+				            <li><a href="board-of-trustees">Board of Trustees</a></li>
+			        	</ul>
+			        </li>
+			        <li class="dropdown">
+			        	<a href="#" class="dropdown-toggle" data-hover="dropdown" data-delay="200" data-close-others="true" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
+			        	<ul class="dropdown-menu">
+				            <li><a href="activities">Activities</a></li>
+				            <li><a href="groups">Groups</a></li>
+				            <li><a href="services">Services</a></li>
+				            <li><a href="camp-comfort">Camp Comfort</a></li>
+				            <li><a href="faq">FAQ</a></li>
+				            <li><a href="comments">Comments</a></li>
+			        	</ul>
+			        </li>
+			        <li class="dropdown">
+			        	<a href="#" class="dropdown-toggle" data-hover="dropdown" data-delay="200" data-close-others="true" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+			        	<ul class="dropdown-menu">
+				            <li><a href="calendar">Calendar</a></li>
+				            <li><a href="fundraisers">Fundraisers</a></li>
+				            <li><a href="center-workshop">Center Workshop</a></li>
+			        	</ul>
+			        </li>
+			        <li class="dropdown">
+			        	<a href="#" class="dropdown-toggle" data-hover="dropdown" data-delay="200" data-close-others="true" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Volunteer <span class="caret"></span></a>
+			        	<ul class="dropdown-menu">
+				            <li><a href="volunteer">Volunteer Opportunities</a></li>
+				            <li><a href="training-workshop">Training Workshop</a></li>
+			        	</ul>
+			        </li>
+			        <li class="dropdown">
+			        	<a href="#" class="dropdown-toggle" data-hover="dropdown" data-delay="200" data-close-others="true" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Donations <span class="caret"></span></a>
+			        	<ul class="dropdown-menu">
+				            <li><a href="donations">Donate</a></li>
+				            <li><a href="wishlist">Wishlist</a></li>
+			        	</ul>
+			        </li>
+		    	</ul>
+		    </div>
 		</div>
-	</body>
+	</nav>
+
+	<main class="container">
+		<div id="content">
+			<h1>Comments</h1>
+
+			<p>We are interested in your opinions and experiences. We are compiling research in the following areas so that we may better help those who are going through the grieving process and those who are in the position to help them:</p>
+
+			<p>If you have had a loved one die, what are some things that "well meaning" people have said or done that were upsetting or just plain hurt?</p>
+
+			<p>What are some helpful or comforting things people have said or done?</p>
+
+			<p>What are some things you wish they had said or done?</p>
+
+			<p>***It is helpful to us, but not manditory, to register some information along with your comments and replies to our questions (i.e. -- What was your loss, how long ago did it occur and any other information that may be deemed pertinent).</p>
+
+			<p>We are also interested in finding out about experiences you may have had with support groups.</p>
+
+			<p>If you've attended a support group, was it a positive experience or a negative experience? What made it so?</p>
+
+			<p>If you've never attended a support group, what were the reasons or concerns you may have had for not attending?</p>
+
+			<p>If you have a personal experience, a piece of poetry, ways to cope or any other suggestions for our website that you would like to share, we would love to hear from you. Just click on the image below.</p>
+			
+			<a href="#"><img src="images/email.png" alt="Email Image"/></a>
+			<br />
+			<!-- Not sure if she wanted comments like this? They get added to a spreadsheet. Seemed like she might have just wanted email. -->
+			<!-- <form action="https://docs.google.com/forms/d/1estuVo5XFTAzx6RxMKV6Zw4MqMURKSl3H9stpm1HVmQ/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0">
+				<div>Please enter your comment here.</div>
+				<textarea name="entry.981648872" rows="8" cols="75" class="ss-q-long" id="entry_981648872" dir="auto" aria-label="Please enter your comment here.  " aria-required="true" required=""></textarea>
+				
+				<input type="hidden" name="draftResponse" value="[,,&quot;2014024071254412989&quot;]">
+				<input type="hidden" name="pageHistory" value="0">
+				<input type="hidden" name="fbzx" value="2014024071254412989">
+
+				<div><table id="navigation-table"><tbody><tr><td>
+				<input type="submit" name="submit" value="Submit" id="ss-submit"></td>
+				</tr></tbody></table></div></ol>
+			</form> -->
+		</div>
+	</main>
+
+</body>
 </html>
