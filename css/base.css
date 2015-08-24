@@ -1,0 +1,118 @@
+/*Navbar Customizations*/
+@media (min-width:767px) {
+	.navbar .nav>li {
+	    display: table-cell;
+	    width: 1%;
+	    height:100%;
+	    float: none;
+	}
+}
+.navbar .navbar-inner {
+	    padding: 0;
+	}
+.navbar .nav>li>a {
+	    font-weight: bold;
+	    text-align: center;
+	}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		color: #FFF;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus{
+		color: #FFF;
+		background-color: #9D2A44
+	}
+	.navbar-default .navbar-nav>li>a {
+		text-align:left;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none;
+	}
+	.navbar-nav {
+		margin: 0;
+	}
+}
+.navbar-collapse {
+	padding:0;
+}
+/***** Coloring *****/
+.navbar-default {
+	background-color: #800000;
+	border-color: #800000;
+	color: #FFF;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #FFF;
+	background-color: #9D2A44;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #FFF;
+	background-color: #9D2A44;
+}
+.navbar-nav>li>.dropdown-menu {
+	background-color: #800000;
+	border-color: #800000;
+	color: #FFF;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #FFF;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #FFF;
+	background-color: #9D2A44;
+}
+.navbar-default .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: #9D2A44;
+	color: #FFF;
+}
+.navbar-default .dropdown-menu>li>a {
+	color: #FFF;
+}
+.navbar-toggle .collapsed, .navbar-default .navbar-toggle:focus {
+	background-color: #800000;
+	color: #FFF;
+}
+.navbar-default .navbar-toggle:hover{
+	color: #FFF;
+	background-color: #9D2A44;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+.navbar-default .navbar-toggle {
+	border-color: #FFF;
+}
+/***** Logo Size/Positioning *****/
+@media (max-width: 400px) {
+	#logo {
+		width:100%;
+	}
+}
+.picture-header {
+	padding-bottom:10px;
+}
+/********** End of Navbar Customizations **********/
+html {
+	padding: 15px 0;
+}
+body {
+	background-color: #F2F2C4
+}
+
+.activity-img {
+	margin: 5px;
+}
+
+.indent {
+	padding-left: 20px;
+}
+
+#twoGirls {
+	margin: auto;
+	padding-bottom:15px;
+}
+
+.wish-list {
+	margin-bottom: 0;
+	padding-right: 15px;
+}
