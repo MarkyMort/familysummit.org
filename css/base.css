@@ -92,6 +92,9 @@
 	padding-bottom:10px;
 }
 /********** End of Navbar Customizations **********/
+
+/********** GENERAL CSS **********/
+
 html {
 	padding: 15px 0;
 }
@@ -99,12 +102,29 @@ body {
 	background-color: #F2F2C4
 }
 
+blockquote {
+	border-color: #800000;
+}
+
 .activity-img {
 	margin: 5px;
 }
 
+#groupImg {
+	padding-bottom: 3px;
+}
+
 .indent {
 	padding-left: 20px;
+}
+
+#logo {
+	max-width:250px;
+}
+
+.margin-auto {
+	float:none;
+	margin: 0 auto;
 }
 
 #twoGirls {
@@ -115,4 +135,29 @@ body {
 .wish-list {
 	margin-bottom: 0;
 	padding-right: 15px;
+}
+
+/********************/
+
+/***** Manages layout for pictures and content *****/
+/* Hides xs-show for sm and bigger, and shows sm-show for the same */
+@media (min-width: 768px) {
+	.xs-show {
+		display:none;
+	}
+
+	.sm-show {
+		display:block;
+	}
+}
+
+/* Shows xs-show under sm size, and hide sm-show for the same  */
+@media (max-width: 767px) {
+	.xs-show {
+		display:block;
+	}
+
+	.sm-show {
+		display:none;
+	}
 }
