@@ -83,21 +83,22 @@
 	border-color: #FFF;
 }
 /***** Logo Size/Positioning *****/
-@media (max-width: 400px) {
+@media (max-width: 425px) {
 	#logo {
 		width:100%;
 	}
+	.picture-header {
+		text-align: center;
+	}
 }
 .picture-header {
+	padding-top:15px;
 	padding-bottom:10px;
 }
 /********** End of Navbar Customizations **********/
 
 /********** GENERAL CSS **********/
 
-html {
-	padding: 15px 0;
-}
 body {
 	background-color: #F2F2C4
 }
@@ -108,6 +109,12 @@ blockquote {
 
 .activity-img {
 	margin: 5px;
+}
+
+.commentarea {
+	max-width: 500px;
+	width: 100%;
+	min-width: 250px;
 }
 
 #groupImg {
@@ -132,9 +139,51 @@ blockquote {
 	margin: 0 auto;
 }
 
+#shadowbox {
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+    visibility: hidden;
+	/*filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#shadowbox:after {
+	content:'';
+	background-color: black;
+	width: 100%;
+	height: 100%;
+    opacity: .8;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+#shadowbox-video {
+	position: absolute;
+	z-index: 1;
+}
+
+#shadow-video-container {
+	margin-top: 4%;
+}
+
+@media (min-width: 992px) {
+	#shadow-video-container {
+		padding-bottom:37.5% !important;
+	}
+}
+
 #twoGirls {
 	margin: auto;
 	margin-bottom:15px;
+}
+
+#videoThumbnail {
+	margin: auto;
+	margin-bottom: 15px;
+	max-width: 400px;
+	cursor: pointer;
 }
 
 .wish-list {
